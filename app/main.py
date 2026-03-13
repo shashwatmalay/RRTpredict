@@ -11,6 +11,7 @@ app = FastAPI(title="Loan Eligibility Checker API", version="1.0.0")
 
 origins = [
     "http://localhost:5173",
+    "https://rrtpredicts.onrender.com"
 ]
 
 app.add_middleware(
